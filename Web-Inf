@@ -1,0 +1,54 @@
+index.html
+
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Login de servidor</title>
+</head>
+<body>
+
+	<h1>Bem Vindo a pagina de login</h1>
+	<a href="login.html">Entrar na conta </a>|
+	<a href="LogoutServlet">Sair da conta </a>|
+	<a href="ProfileServlet">Perfil</a>
+
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+link.html
+
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Pagina Link</title>
+</head>
+<body>
+
+	<a href="login.html">Entrar na conta</a> |
+	<a href="LogoutServlet">Sair da conta</a> |
+	<a href="ProfileServlet">Perfil</a>
+	<hr>
+
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+login.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Pagina de login</title>
+</head>
+<body>
+
+	<form action="LoginServlet" method="post">
+		Nome:<input type="text" name="name"><br> Senha:<input
+			type="password" name="password"><br> <input
+			type="submit" value="login">
+	</form>
+
+</body>
+</html>
